@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
 
-    CashbackHackService service = new CashbackHackService();
+    ru.netology.service.CashbackHackService service = new ru.netology.service.CashbackHackService();
     int amount;
     int expect;
 
