@@ -19,13 +19,13 @@ class CashbackHackServiceTest {
     @Test
     void shouldReturn0IfAmountIs1000() {
         int actual = service.remain(amount = 1000);
-        assertEquals(expect = 0,actual);
+        assertEquals(expect = 10,actual);
     }
 
     @Test
     void shouldReturn1000IfAmountIs0() {
 
-        int actual = service.remain(amount = 0);
-        assertEquals(expect = 1000,actual);
+        int actual = service.remain(amount = 500);
+        assertEquals(expect = 500,actual);
     }
 }
